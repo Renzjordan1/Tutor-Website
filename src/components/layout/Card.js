@@ -17,7 +17,7 @@ function Card({ pic, title, desc }) {
 
   const card = (
     <div className="card card h-100">
-      <img src={pic} className="card-img-top img-fluid" />
+      {/* <img src={pic} className="card-img-top img-fluid" /> */}
       <div className="card-body">
         <h3 className="card-title">{title}</h3>
         <p>{desc}</p>

@@ -53,7 +53,14 @@ class Account extends Component {
     "Other"
   ];
 
-  grades = ["6th-8th", "HS Freshman", "HS Sophomore", "HS Junior", "College"];
+  grades = [
+    "6th-8th",
+    "HS Freshman",
+    "HS Sophomore",
+    "HS Junior",
+    "HS Senior",
+    "College"
+  ];
 
   render() {
     const { auth, msg } = this.props;

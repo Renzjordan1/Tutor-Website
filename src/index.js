@@ -19,7 +19,8 @@ import "firebase/auth";
 import { useSelector } from "react-redux";
 import { isLoaded } from "react-redux-firebase";
 
-//config = config settings
+// config here
+
 firebase.initializeApp(config);
 
 const store = createStore(

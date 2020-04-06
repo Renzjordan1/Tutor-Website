@@ -26,6 +26,8 @@ const Profile = props => {
             <span className="card-title">
               Name: {user.firstName} {user.lastName}
             </span>
+            <p>Email: {user.email}</p>
+            <p>Number: {user.tel}</p>
             <p>Title: {user.title}</p>
             <p>Desc: {user.desc}</p>
             <p>Grade: {user.grade}</p>

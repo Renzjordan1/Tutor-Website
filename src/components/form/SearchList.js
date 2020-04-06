@@ -14,7 +14,12 @@ function SearchList({ userDetails, filters }) {
         Object.keys(user)[i] != "isLoaded" ||
         Object.keys(user)[i] != "isEmpty"
       ) {
-        if (user[Object.keys(user)[i]].toString().includes(filters.search)) {
+        if (
+          user[Object.keys(user)[i]]
+            .toString()
+            .toLowerCase()
+            .includes(filters.search.toLowerCase())
+        ) {
           show = true;
           break;
         } else {
